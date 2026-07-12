@@ -214,6 +214,10 @@ export const registrationNote =
 // ----------------------------------------------------------------------------
 export const contact = {
   email: "limszekee702@gmail.com",
+  phones: [
+    { number: "014-930 4733", name: "Ms. Rebecca" },
+    { number: "016-923 7918", name: "Mr. Leong" },
+  ],
   organiserBlurb: "A joint robotics competition by ABSEE Enterprise & Creative Robotics, held at Sunway Putra Mall.",
   registrationInfo: "ABSEE Enterprise (Reg. No. 202403245983)",
   copyright: "© 2026 ABSEE Enterprise & Creative Robotics. All rights reserved.",

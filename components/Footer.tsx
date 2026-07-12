@@ -17,10 +17,23 @@ export default function Footer() {
             <h4 className="text-xs font-semibold uppercase tracking-widest text-electric">Contact</h4>
             <a
               href={`mailto:${contact.email}`}
-              className="mt-3 inline-block text-sm text-slate-300 hover:text-electric"
+              className="mt-3 block text-sm text-slate-300 hover:text-electric"
             >
               {contact.email}
             </a>
+            <ul className="mt-2 space-y-1">
+              {contact.phones.map((phone) => (
+                <li key={phone.number}>
+                  <a
+                    href={`tel:${phone.number.replace(/\s|-/g, "")}`}
+                    className="text-sm text-slate-300 hover:text-electric"
+                  >
+                    {phone.number}
+                  </a>
+                  <span className="text-sm text-slate-500"> ({phone.name})</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div>
