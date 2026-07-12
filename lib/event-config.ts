@@ -72,7 +72,7 @@ export const eventDetails = [
   {
     number: "04",
     title: "Capacity",
-    lines: ["100 participants per day"],
+    lines: ["100+ participants per day"],
   },
   {
     number: "05",
@@ -81,8 +81,8 @@ export const eventDetails = [
   },
   {
     number: "06",
-    title: "Organised By",
-    lines: ["ABSEE Enterprise", "& Creative Robotics"],
+    title: "Managed By",
+    lines: ["Creative Robotics"],
   },
 ];
 
