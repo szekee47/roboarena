@@ -4,7 +4,7 @@ import EventDetails from "@/components/EventDetails";
 import Format from "@/components/Format";
 import Schedule from "@/components/Schedule";
 import Prizes from "@/components/Prizes";
-import RegistrationForm from "@/components/RegistrationForm";
+import RegistrationCta from "@/components/RegistrationCta";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         <Format />
         <Schedule />
         <Prizes />
-        <RegistrationForm />
+        <RegistrationCta />
       </main>
       <Footer />
     </>

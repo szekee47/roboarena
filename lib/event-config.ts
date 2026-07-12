@@ -198,12 +198,13 @@ export const totalPrizePool = "RM1,250";
 export const prizePoolNote = `Total prize pool: ${totalPrizePool}, plus goodie bags for all participants.`;
 
 // ----------------------------------------------------------------------------
-// Registration form
+// Registration — external Google Form. Update `href` to change where the
+// "Registration" button sends people.
 // ----------------------------------------------------------------------------
-export const registrationEventOptions = [
-  { value: "soccer", label: "Soccer Challenge (Day 1 - 19 Sep)" },
-  { value: "sumo", label: "Sumo Battle (Day 2 - 20 Sep)" },
-];
+export const registrationCta = {
+  label: "Registration",
+  href: "https://forms.gle/Fs5uhj58HyGfqRMG7",
+};
 
 export const registrationNote =
   "Workshop session is free — you only pay for kit rental/materials on the day. No obligation to join the afternoon competition.";
