@@ -15,13 +15,7 @@ export default function Footer() {
 
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-widest text-electric">Contact</h4>
-            <a
-              href={`mailto:${contact.email}`}
-              className="mt-3 block text-sm text-slate-300 hover:text-electric"
-            >
-              {contact.email}
-            </a>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-3 space-y-1">
               {contact.phones.map((phone) => (
                 <li key={phone.number}>
                   <a
