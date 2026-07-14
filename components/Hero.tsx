@@ -7,6 +7,14 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-electric/10 via-transparent to-transparent" />
 
       <div className="section-shell relative flex flex-col items-center pb-16 pt-20 text-center sm:pt-28">
+        <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">
+          Supported by
+        </p>
+        <div className="mb-6 flex items-center justify-center gap-6">
+          <img src="/kbs-logo.png" alt="Kementerian Belia & Sukan (Ministry of Youth and Sports)" className="h-28 w-auto sm:h-36" />
+          <img src="/rakan-muda-logo.png" alt="Rakan Muda" className="h-28 w-auto sm:h-36" />
+        </div>
+
         <p className="section-kicker">{hero.eyebrow}</p>
 
         <h1 className="max-w-3xl text-4xl font-extrabold uppercase leading-tight tracking-wide text-white sm:text-6xl">

@@ -12,15 +12,11 @@ export default function NavBar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-navy-950/85 backdrop-blur-md">
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
         <a href="#top" className="flex items-center gap-2 font-heading text-lg font-bold tracking-wide text-white">
-          <span className="flex h-8 w-8 items-center justify-center rounded border border-electric text-electric">
-            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
-              <rect x="4" y="9" width="16" height="10" rx="1.5" />
-              <path d="M9 9V6a3 3 0 0 1 6 0v3" />
-              <circle cx="9" cy="14" r="1.2" fill="currentColor" stroke="none" />
-              <circle cx="15" cy="14" r="1.2" fill="currentColor" stroke="none" />
-              <path d="M12 3v1.5" />
-            </svg>
-          </span>
+          <img
+            src="/cr8-logo.jpg"
+            alt="CR8 Setia Alam logo"
+            className="h-9 w-9 rounded-full object-cover"
+          />
           <span>
             ROBO<span className="text-electric"> ARENA</span> 2026
           </span>
