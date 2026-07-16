@@ -43,6 +43,7 @@ export const hero = {
 export const navLinks = [
   { label: "Event", href: "#event" },
   { label: "Format", href: "#format" },
+  { label: "Rules", href: "#rules" },
   { label: "Schedule", href: "#schedule" },
   { label: "Prizes", href: "#prizes" },
   { label: "Contact", href: "#contact" },
@@ -103,6 +104,46 @@ export const games = [
     entryType: "Individual entries",
     structure: "Head-to-head best-of-3 short bouts, followed by knockout finals",
     category: "Primary School (U12)",
+  },
+];
+
+// ----------------------------------------------------------------------------
+// Rules & Regulations — one rule set per game
+// ----------------------------------------------------------------------------
+export const rules = [
+  {
+    game: "Soccer Challenge",
+    botName: "SoccerBot",
+    items: [
+      "Robot must not exceed W150mm x L150mm x H120mm and weigh no more than 500g.",
+      "Modifying or “hacking” LEGO parts is not allowed. Tape, glue, 3D printed parts, and zip-ties are not allowed as assembly components.",
+      "Max 2 motors (limited to XL Motors or L Motors). Bring spare batteries — rechargeable is recommended.",
+      "Robots can be built at home. Each team must have 2 robots, and members may take on roles such as striker or defender.",
+      "A sparring period is allocated before the competition to test your robot on the playing field.",
+      "Intentionally damaging the playing field or other robots will not be tolerated. Players may not touch their robots during a match — offenders will be removed.",
+      "Match line-up is decided by computerized randomization. Teams that don't report to the staging area when called are considered a surrender.",
+      "Match style is Double Elimination. Matches run 4 minutes. Ties are resolved with the Penalty Kick Rule.",
+      "Referees return the ball and any damaged/incapacitated robots to the middle of the field. Match time is not stopped for this.",
+      "The Referee sets channel settings for the match. Surrender your controller before the match begins — write your name on it.",
+      "Referees' decisions are final. Attempts to argue may result in disqualification.",
+    ],
+  },
+  {
+    game: "Sumo Battle",
+    botName: "SumoBot",
+    items: [
+      "Robot must not exceed W150mm x L150mm x H120mm and weigh no more than 500g.",
+      "Modifying or “hacking” LEGO parts is not allowed. Tape, glue, 3D printed parts, and zip-ties are not allowed as assembly components.",
+      "Max 2 motors (limited to XL Motors or L Motors). Bring spare batteries — rechargeable is recommended.",
+      "Robots can be built at home.",
+      "A sparring period is allocated before the competition to test your robot on the playing field.",
+      "Intentionally damaging the playing field or other robots will not be tolerated. Players may not touch their robots during a match — offenders will be removed.",
+      "Match line-up is decided by computerized randomization. Teams that don't report to the staging area when called are considered a surrender.",
+      "Match style is Single Elimination. Matches run 1 minute. If neither robot is eliminated, the robot closest to the centre of the arena wins the round (judge's decision is final).",
+      "Battle rules: robots start facing away from each other at the starting strip; a robot no longer fully supported by the arena is considered fallen and a loss; the first robot fully off the arena loses.",
+      "The Referee sets channel settings for the match. Surrender your controller before the match begins — write your name on it.",
+      "Referees' decisions are final. Attempts to argue may result in disqualification.",
+    ],
   },
 ];
 
