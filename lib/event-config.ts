@@ -184,8 +184,6 @@ export const dailyFlow = [
   },
 ];
 
-export const goodieBagNote = "Every participant receives a goodie bag.";
-
 // ----------------------------------------------------------------------------
 // Schedule — same schedule applies to both event days
 // ----------------------------------------------------------------------------
@@ -236,7 +234,7 @@ export const prizes = [
 ];
 
 export const totalPrizePool = "RM1,250";
-export const prizePoolNote = `Total prize pool: ${totalPrizePool}, plus goodie bags for all participants.`;
+export const prizePoolNote = `Total prize pool: ${totalPrizePool}.`;
 
 // ----------------------------------------------------------------------------
 // Registration — external Google Form. Update `href` to change where the

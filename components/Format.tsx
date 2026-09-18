@@ -1,4 +1,4 @@
-import { dailyFlow, games, goodieBagNote } from "@/lib/event-config";
+import { dailyFlow, games } from "@/lib/event-config";
 
 export default function Format() {
   return (
@@ -51,10 +51,6 @@ export default function Format() {
             </div>
           ))}
         </div>
-
-        <p className="mt-8 text-center text-sm font-medium uppercase tracking-wider text-amber">
-          {goodieBagNote}
-        </p>
       </div>
     </section>
   );
