@@ -1,4 +1,4 @@
-import { prizePoolNote, prizes } from "@/lib/event-config";
+import { participationNote, prizePoolNote, prizes } from "@/lib/event-config";
 
 export default function Prizes() {
   return (
@@ -41,6 +41,9 @@ export default function Prizes() {
 
       <p className="mt-10 text-center text-sm font-medium uppercase tracking-wider text-slate-400">
         {prizePoolNote}
+      </p>
+      <p className="mt-2 text-center text-sm font-medium uppercase tracking-wider text-amber">
+        {participationNote}
       </p>
     </section>
   );

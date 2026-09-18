@@ -250,6 +250,7 @@ export const prizes = [
 
 export const totalPrizePool = "RM1,250";
 export const prizePoolNote = `Total prize pool: ${totalPrizePool}.`;
+export const participationNote = "Every participant receives a participation medal.";
 
 // ----------------------------------------------------------------------------
 // Registration — external Google Form. Update `href` to change where the
