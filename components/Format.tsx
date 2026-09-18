@@ -35,7 +35,7 @@ export default function Format() {
           Daily Flow
         </h3>
 
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {dailyFlow.map((item) => (
             <div key={item.step} className="card-panel flex flex-col">
               <div className="flex items-center gap-3">

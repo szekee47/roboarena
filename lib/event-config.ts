@@ -148,39 +148,51 @@ export const rules = [
 ];
 
 // ----------------------------------------------------------------------------
-// Daily flow — numbered 1–5 (same structure both days)
+// Daily flow — numbered 1–7 (same structure both days)
 // ----------------------------------------------------------------------------
 export const dailyFlow = [
   {
     step: 1,
-    title: "Check-in",
-    time: "9:00 AM",
-    description: "Collect kit",
+    title: "Registration",
+    time: "10:00 AM – 10:30 AM",
+    description: "Check-in and kit collection",
   },
   {
     step: 2,
-    title: "Briefing",
-    time: "9:20 AM",
-    description: "Rules explained",
+    title: "Rules & Briefing",
+    time: "10:30 AM – 10:40 AM",
+    description: "Match rules explained to all participants",
   },
   {
     step: 3,
     title: "Workshop",
-    time: "9:30 AM",
+    time: "10:40 AM – 1:00 PM",
     description:
       "Free guided build with facilitator support — participants only pay for kit rental/materials, no obligation to join the afternoon competition",
   },
   {
     step: 4,
-    title: "Competition",
-    time: "1:30 PM",
-    description: "Preliminary rounds then knockout finals",
+    title: "Lunch Time",
+    time: "1:00 PM – 2:00 PM",
+    description: "Break for lunch",
   },
   {
     step: 5,
-    title: "Prize Ceremony",
-    time: "5:00 PM",
-    description: "Awards & closing",
+    title: "Competition",
+    time: "2:00 PM – 3:30 PM",
+    description: "Preliminary rounds then knockout finals",
+  },
+  {
+    step: 6,
+    title: "Finalise Winner List",
+    time: "3:30 PM – 4:00 PM",
+    description: "Judges confirm final results and rankings",
+  },
+  {
+    step: 7,
+    title: "Prize Giving Ceremony",
+    time: "4:00 PM – 5:00 PM",
+    description: "Awards presented to winners",
   },
 ];
 
@@ -190,11 +202,14 @@ export const dailyFlow = [
 export const scheduleNote = "Same schedule applies to both days.";
 
 export const scheduleRows = [
-  { time: "9:00 AM", activity: "Check-in & kit distribution" },
-  { time: "9:20 AM", activity: "Rules briefing" },
-  { time: "9:30 AM", activity: "Session 1: Workshop (free, guided build)" },
-  { time: "1:30 PM", activity: "Session 2: Competition (prelims to knockout finals)" },
-  { time: "5:00 PM", activity: "Prize presentation & closing" },
+  { time: "10:00 AM – 10:30 AM", activity: "Registration" },
+  { time: "10:30 AM – 10:40 AM", activity: "Rules & briefing" },
+  { time: "10:40 AM – 1:00 PM", activity: "Workshop" },
+  { time: "1:00 PM – 2:00 PM", activity: "Lunch time" },
+  { time: "2:00 PM – 3:30 PM", activity: "Competition" },
+  { time: "3:30 PM – 4:00 PM", activity: "Finalise winner list" },
+  { time: "4:00 PM – 5:00 PM", activity: "Prize giving ceremony" },
+  { time: "5:00 PM", activity: "End" },
 ];
 
 // ----------------------------------------------------------------------------
